@@ -1,0 +1,42 @@
+{
+  "rows": 523554,
+  "features": [
+    "pickup_longitude",
+    "pickup_latitude",
+    "dropoff_longitude",
+    "dropoff_latitude",
+    "min_of_day",
+    "day_of_week",
+    "day_of_year"
+  ],
+  "split_sizes": [
+    366487,
+    78533,
+    78534
+  ],
+  "seed": 42,
+  "best_epoch": 46,
+  "epochs_run": 54,
+  "train_target_mean": 10.416307848047463,
+  "train_target_std": 7.755262943237511,
+  "results": {
+    "constant_gaussian": {
+      "gaussian_nll": 3.4675203478087226,
+      "rmse_minutes": 7.756892247955116,
+      "brier": 0.004456631834322197,
+      "accuracy": 0.995543331550666
+    },
+    "linear_gaussian": {
+      "gaussian_nll": 3.4397522778403133,
+      "rmse_minutes": 7.544461701020237,
+      "brier": 0.004455057892569849,
+      "accuracy": 0.995543331550666
+    },
+    "gaussian_mlp": {
+      "gaussian_nll": 2.7466486680192963,
+      "rmse_minutes": 4.006211968025162,
+      "brier": 0.0028605236627933547,
+      "accuracy": 0.9967020653474928
+    }
+  }
+}

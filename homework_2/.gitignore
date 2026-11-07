@@ -1,0 +1,22 @@
+# Python environments and generated caches
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+
+# Reproducible intermediate artifacts
+*.pt
+**/split_indices.npz
+results_q1/test_predictions.csv
+results_q2/test_predictions.csv
+*.zip
+
+# LaTeX build intermediates (keep source, figures, and PDF)
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz

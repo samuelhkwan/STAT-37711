@@ -1,0 +1,27 @@
+# Local environments and editor settings
+.venv/
+.vscode/
+.DS_Store
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Generated intermediates and old archives
+*.pt
+*.npz
+*.zip
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# Homework 1 writeup source is kept locally, outside the code submission.
+homework_1/*.tex
+
+# Old plots saved in the course root; notebook outputs are already embedded.
+/Q-Q plot of SVR.png
+/Q-Q plot of decision tree.png
+/Q-Q plot of residual.png

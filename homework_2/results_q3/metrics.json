@@ -1,0 +1,29 @@
+{
+  "seed": 42,
+  "training_rows": 600,
+  "validation_rows": 200,
+  "test_rows": 200,
+  "rks_settings": {
+    "D": 32,
+    "sigma": 1.0,
+    "ridge_lambda": 0.001,
+    "random_state": 42
+  },
+  "mlp_settings": {
+    "d_hidden": 256,
+    "lr": 0.001,
+    "batch_size": 128,
+    "activation": "tanh",
+    "device": "cpu",
+    "num_epochs": 1500,
+    "random_state": 42
+  },
+  "rks": {
+    "train_mse": 0.03324448704332201,
+    "val_mse": 0.035983014065692105
+  },
+  "mlp": {
+    "train_mse": 0.03251341299234589,
+    "val_mse": 0.037257105034697806
+  }
+}

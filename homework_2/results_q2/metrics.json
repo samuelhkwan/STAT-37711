@@ -1,0 +1,37 @@
+{
+  "rows": 397924,
+  "split_sizes": [
+    278546,
+    59689,
+    59689
+  ],
+  "seed": 42,
+  "cardinalities_full": {
+    "StockCode": 3665,
+    "CustomerID": 4339
+  },
+  "target_smoothing": 20,
+  "cross_fit_folds": 5,
+  "embedding_dimension": 16,
+  "best_epochs": {
+    "embedding": 48,
+    "combined": 41
+  },
+  "test_results": {
+    "target_encoding": {
+      "msle": 0.4014741546740573,
+      "mae": 7.001157651906461,
+      "rmse": 33.17496952976978
+    },
+    "embedding": {
+      "msle": 0.2939381680128356,
+      "mae": 6.195741005909906,
+      "rmse": 29.9075720384987
+    },
+    "combined": {
+      "msle": 0.2958507245922365,
+      "mae": 6.265764802246413,
+      "rmse": 29.777264770449072
+    }
+  }
+}
